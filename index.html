@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forumulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <h1>formulario</h1>
+    <img src="logo.png" class="logo">    
+
+    <form class="formulario">
+        <div>
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite o nome...">
+            <p>
+                <input type="checkbox" name="sexo">masculino
+                <input type="checkbox" name="sexo">feminino
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email">
+            <p>
+                <label>Repita o Email:</label>
+                <input type="email" name="repetir-email">
+            <p>
+                <label>Cpf:</label>
+                <input type="number" name="cpf">
+            <p>
+                <label>Codigo da roupa:</label>
+                <input type="number" name="cod-roupa">
+            <p>
+                <label>Tamanho: </label>
+                <input type="number" name="num-hospedes">
+            <p>
+                <label>Mensagem:</label>
+                <input type="text" name="obs" class="obs" placeholder="Algum comentário extra?">
+            <p>
+                <label>Código promocional:</label>
+                <input type="text" name="promocional">
+            <p>
+                <input type="checkbox" name="newsletter"> Gostaria de receber atualizações do seu pedido por email?
+            <p>
+                <button type="button" name="btn-reserva"  class="btn-reserva" onclick='alert("reserva adquirida")'>Requerer reserva</button>
+
+                
+        </div>
+    </form>
+    
+</body>
+</html>

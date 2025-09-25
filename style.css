@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(87, 86, 86);
+}
+
+
+
+.formulario {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 30px;
+    color: white;
+    background-image: url(fundo2.jpg);
+
+}
+
+.total {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    width: 20vw;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.obs {
+    width: 30vw;
+    height: 2vw;
+}
+
+.btn-reserva {
+    border-radius: 10px;
+    width: 100px;
+    transition: 0.5s;
+
+}
+
+.btn-reserva:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+input {
+    background: transparent;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.logo  {
+    width: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+
