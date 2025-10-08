@@ -13,11 +13,6 @@ body{
 
 }
 
-.total {
-    border: 2px solid rgb(255, 255, 255);
-    padding: 10px;
-    width: 20vw;
-}
 
 h1 {
     display: flex;
@@ -31,14 +26,15 @@ h1 {
     height: 2vw;
 }
 
-.btn-reserva {
+#reserva {
     border-radius: 10px;
-    width: 100px;
+    width: 130px;
+    height: 40px;
     transition: 0.5s;
 
 }
 
-.btn-reserva:hover {
+#reserva:hover {
     transition: 0.5s;
     transform: scale(1.05);
 }
@@ -51,6 +47,7 @@ input {
 }
 
 .logo  {
+    padding-left: 39px;
     width: 70px;
     position: fixed;
     top: 0;
