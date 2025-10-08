@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.png">
 </head>
 <body>
-    <h1>formulario</h1>
+    <h1>Formulário</h1>
     <img src="logo.png" class="logo">    
 
     <form class="formulario">
         <div>
-                <label>Nome:</label>
-                <input type="text" name="nome" id="PrimeiroNome" placeholder="Digite o nome...">
+            <label>Nome:</label>
+            <input type="text" name="nome" id="PrimeiroNome" placeholder="Digite o nome...">
             <p>
-                <input type="radio" name="sexo">Masculino
-                <input type="radio" name="sexo">Feminino
+                <input type="radio" name="sexo" id="sexoMasc" value="Masculino">Masculino
+                <input type="radio" name="sexo" id="sexoFem" value="Feminino">Feminino
             <p>
                 <label>Email:</label>
                 <input type="email" id="email" name="email">
@@ -27,13 +27,13 @@
             <p id="mensagem-email"></p>
 
                 <label>Cpf:</label>
-                <input type="number" min="0" name="cpf">
+                <input type="number" min="0" name="cpf" id="cpf">
             <p>
                 <label>Codigo da roupa:</label>
-                <input type="number" min="0" name="cod-roupa">
+                <input type="number" min="0" name="cod-roupa" id="codRoupa">
             <p>
                 <label>Tamanho: </label>
-                <input type="number" min="0" name="num-hospedes">
+                <input type="number" min="0" name="num-hospedes" id="tamanho">
             <p>
                 <label>Mensagem:</label>
                 <input type="text" name="obs" class="obs" placeholder="Algum comentário extra?">
@@ -43,10 +43,10 @@
             <p>
                 <input type="checkbox" name="newsletter"> Gostaria de receber atualizações do seu pedido por email?
             <p>
+                <div id="lista-erros" style="color: orange; margin-bottom: 15px;"></div>
+
                 <button id="reserva" type="button">Requerer reserva</button>
                 <p id="mensagem" class="mensagem"></p>
-
-                
         </div>
     </form>
     <script src="script.js"></script>
